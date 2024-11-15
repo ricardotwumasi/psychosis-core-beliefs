@@ -6,20 +6,9 @@
 
 Full R code for reproducing our meta-analysis of the relationship between core beliefs and psychotic experiences. This repository contains the code used in our systematic review and meta-analysis (Jorovat et al., in press) examining how core beliefs and schemas relate to psychosis, clinical high risk states, and psychotic-like experiences.
 
-## 📋 Table of Contents
-- [Overview](#overview)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Pipeline Structure](#pipeline-structure)
-- [Usage](#usage)
-- [Effect Size Calculations](#effect-size-calculations)
-- [Citation](#citation)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## 🎯 Overview
 
-This pipeline implements a meta-analytic approach to synthesise evidence on core beliefs in psychosis, following the steps of:
+This code implements a meta-analytic approach to synthesise evidence on core beliefs in psychosis, following the steps of:
 
 - Converting diverse effect sizes to a common metric (Fisher's z)
 - Handling complex dependency structures in the data
@@ -70,7 +59,7 @@ The analysis pipeline consists of two main scripts:
 
 ## 📊 Effect Size Calculations
 
-Our pipeline implements standardised effect size calculations following established guidelines:
+Our pipeline implements standardised effect size calculations following established guidelines (Borenstein et al. 2021):
 
 1. Direct correlations (r) are transformed to Fisher's z using:
    ```R
@@ -102,7 +91,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Key methodological references:
 
 ```bibtex
-@article{chinn2000simple,
+@article{chinn2000,
   title={A simple method for converting an odds ratio to effect size for use in meta-analysis},
   author={Chinn, Susan},
   journal={Statistics in medicine},
@@ -113,16 +102,17 @@ Key methodological references:
   publisher={Wiley Online Library}
 }
 
-@incollection{borenstein2009effect,
-  title={Effect sizes for continuous data},
-  author={Borenstein, Michael},
-  booktitle={The handbook of research synthesis and meta-analysis},
-  pages={221--235},
-  year={2009},
-  publisher={Russell Sage Foundation}
+@book{borenstein2021,
+	title = {Introduction to {Meta}-{Analysis}},
+	isbn = {978-1-119-55835-4},
+	url = {https://books.google.co.uk/books?id=2oYmEAAAQBAJ},
+	publisher = {Wiley},
+	author = {Borenstein, M. and Hedges, L.V. and Higgins, J.P.T. and Rothstein, H.R.},
+	year = {2021},
 }
 
-@article{viechtbauer2010conducting,
+
+@article{viechtbauer2010,
   title={Conducting meta-analyses in R with the metafor package},
   author={Viechtbauer, Wolfgang},
   journal={Journal of Statistical Software},
@@ -133,7 +123,8 @@ Key methodological references:
 }
 ```
 
-For citing this repository, see [Citation](#citation) please use:
+[Citation](#citation) 
+For citing this repository, please use:
 
 <details>
 <summary>BibTeX</summary>
