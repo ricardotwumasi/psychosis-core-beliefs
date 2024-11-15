@@ -3,7 +3,7 @@
 ###############
 
 # Load required libraries with checks
-required_packages <- c("tidyverse", "metafor", "meta")
+required_packages <- c("tidyverse", "metafor")
 lapply(required_packages, function(pkg) {
   if (!requireNamespace(pkg, quietly = TRUE)) {
     install.packages(pkg)
