@@ -58,7 +58,7 @@ The analysis pipeline consists of two main scripts:
 
 Our pipeline implements standardised effect size calculations following established guidelines (Borenstein et al. 2021):
 
-1. Direct correlations (r) are transformed to Fisher's z using:
+1. Direct correlations (r) are transformed to Fisher's z (1915) using:
    ```R
    fishers_z = atanh(r)
    ```
