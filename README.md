@@ -29,7 +29,7 @@ This code implements a meta-analytic approach to synthesise evidence on core bel
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/[username]/core-beliefs-meta.git
+   git clone https://github.com/ricardotwumasi/core-beliefs-meta.git
    ```
 
 2. Install required R packages:
