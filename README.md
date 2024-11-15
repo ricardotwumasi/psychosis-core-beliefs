@@ -22,7 +22,6 @@ This code implements a meta-analytic approach to synthesise evidence on core bel
   ```R
   tidyverse
   metafor
-  meta
   gridExtra
   ggplot2
   dplyr
