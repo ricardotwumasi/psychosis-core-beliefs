@@ -36,7 +36,7 @@ This code implements a meta-analytic approach to synthesise evidence on core bel
 
 2. Install required R packages:
    ```R
-   required_packages <- c("tidyverse", "metafor", "meta", "gridExtra", "ggplot2", "dplyr")
+   required_packages <- c("tidyverse", "metafor", "gridExtra", "ggplot2", "dplyr")
    install.packages(required_packages)
    ```
 
