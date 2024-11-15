@@ -1,4 +1,4 @@
-# 🧠 Core Beliefs in Psychosis: Meta-Analysis Pipeline
+# 🧠 Core Beliefs in Psychosis Meta-Analysis Code
 
 [![DOI](https://zenodo.org/badge/DOI/[pending].svg)](https://doi.org/[pending])
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
