@@ -79,6 +79,10 @@ Our pipeline implements standardised effect size calculations following establis
    se = 1/sqrt(n - 3)
    ```
 
+## 🤖 AI Statement
+
+This code was edited with the assistance of Claude Sonnet 3.5 (Anthropic, San Francisco: CA)
+
 ## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
