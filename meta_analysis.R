@@ -15,8 +15,8 @@ lapply(required_packages, function(pkg) {
 data <- read.csv("BCSS/CHR_BCSS_Positive_Other.csv")
 
 # List of CSV files for looping
-#files <- c("SZ_BCSS_Negative_Self.csv", "SZ_BCSS_Positive_Self.csv",
-#           "SZ_YSQ_Abandonment.csv", "SZ_YSQ_Mistrust.csv") etc
+#files <- c("BCSS/SZ_BCSS_Negative_Self.csv", "BCSS/SZ_BCSS_Positive_Self.csv",
+#           "YSQ/SZ_YSQ_Abandonment.csv", "YSQ/SZ_YSQ_Mistrust.csv") etc
 
 # Standardize control group naming 
 data$clinical_group <- tolower(data$clinical_group)
