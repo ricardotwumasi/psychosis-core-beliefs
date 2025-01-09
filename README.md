@@ -10,10 +10,10 @@ Full R code for reproducing our meta-analysis of the relationship between core b
 
 This code implements a meta-analytic approach to synthesise evidence on core beliefs in psychosis, following the steps of:
 
-- Converting diverse effect sizes to a common metric (Fisher's z)
-- Handling complex dependency structures in the data
-- Conducting subgroup analyses by clinical population
-- Examining moderating effects of belief and symptom types
+- Calculating effect sizes
+- Fitting RMLE with knha models for each BCSS and YSQ schema
+- Identifying and measuring heterogeneity
+- Creating forest plots with point estimates, 95% confidence intervals and prediction intervals
 
 ## 💻 Requirements
 
@@ -22,7 +22,6 @@ This code implements a meta-analytic approach to synthesise evidence on core bel
   ```R
   tidyverse
   metafor
-  gridExtra
   ```
 
 ## 🚀 Installation
@@ -34,51 +33,10 @@ This code implements a meta-analytic approach to synthesise evidence on core bel
 
 2. Install required R packages:
    ```R
-   required_packages <- c("tidyverse", "metafor", "gridExtra")
+   required_packages <- c("tidyverse", "metafor")
    install.packages(required_packages)
    ```
-
-## 🏗️ Pipeline Structure
-
-The analysis pipeline consists of two main scripts:
-
-1. `cleaning_escalc.R`: Data preprocessing and effect size calculation
-   - Standardizes variable names
-   - Converts effect sizes to Fisher's z
-   - Calculates sampling variances
-   - Creates separate datasets for different analyses
-
-2. `meta_analysis.R`: Meta-analytic procedures
-   - Implements random-effects models
-   - Conducts subgroup analyses
-   - Performs meta-regression
-   - Assesses publication bias
-
-## 📊 Effect Size Calculations
-
-Our pipeline implements standardised effect size calculations following established guidelines (Borenstein et al. 2021):
-
-1. Direct correlations (r) are transformed to Fisher's z (1915) using:
-   ```R
-   fishers_z = atanh(r)
-   ```
-
-2. Odds ratios are converted following Chinn's (2000) method:
-   ```R
-   logOR = log(OR)
-   r = logOR / (sqrt(3) * pi)
-   ```
-
-3. Cohen's d is converted using:
-   ```R
-   r = d / sqrt(d^2 + 4)
-   ```
-
-4. Standard errors for Fisher's z are calculated as:
-   ```R
-   se = 1/sqrt(n - 3)
-   ```
-
+   
 ## 🤖 AI Statement
 
 This code was edited with the assistance of Claude Sonnet 3.5 (Anthropic, San Francisco: CA)
