@@ -1,0 +1,7 @@
+﻿study_id,author,year,clinical_group,bcss,sample_size,mean_score,sd,,
+9,Appiah-Kusi et al,2017,CHR,positive_other,30,7.17,4.88,-0.9,-0.41
+9,Appiah-Kusi et al,2017,Control,positive_other,36,14.03,9.6,,
+10,Cowan et al,2019,CHR,positive_other,73,10.2,5.4,-0.67,-0.32
+10,Cowan et al,2019,Control,positive_other,73,13.8,5.3,,
+12,Taylor et al ,2013,CHR,positive_other,113,9.49,5.73,0.02,0.01
+12,Taylor et al ,2013,Control,positive_other,28,9.38,5.57,,

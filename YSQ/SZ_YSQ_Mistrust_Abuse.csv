@@ -1,0 +1,11 @@
+﻿study_id,author,year,clinical_group,ysq,sample_size,mean_score,sd
+13,Bortolon et al,2013,SZ,Mistrust_Abuse,48,11.15,4.87
+13,Bortolon et al,2013,Control,Mistrust_Abuse,43,8.75,4.07
+14,Khosravani et al,2019,SZ,Mistrust_Abuse,105,17.49,7.31
+14,Khosravani et al,2019,Control,Mistrust_Abuse,90,8.9,4.68
+15,Khosravani et al,2021,SZ,Mistrust_Abuse,82,22.28,5.38
+15,Khosravani et al,2021,Control,Mistrust_Abuse,60,11.5,5.3
+16,Sundag et al,2018,SZ,Mistrust_Abuse,20,3.87,1.24
+16,Sundag et al,2018,Control,Mistrust_Abuse,40,2.13,1.09
+17,Sundag et al,2016,SZ,Mistrust_Abuse,81,3.19,1.31
+17,Sundag et al,2016,Control,Mistrust_Abuse,60,2.07,0.88
