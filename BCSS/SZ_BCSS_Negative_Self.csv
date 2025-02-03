@@ -1,17 +1,17 @@
-﻿study_id,author,year,clinical_group,bcss,sample_size,mean_score,sd,,
-1,Collett et al,2016,SZ,negative_self,21,9.45,5.02,,
-1,Collett et al,2016,control,negative_self,21,3.05,4.98,,
-2,Haarmans et al,2018,SZ,negative_self,19,0.77,0.79,,
-2,Haarmans et al,2018,Control,negative_self,30,0.48,0.66,,
-3,Peters et al,2016,SZ,negative_self,83,6,6.2,,
-3,Peters et al,2016,Control,negative_self,82,1.8,3.2,,
-4,Ucok et al,2024,SZ,negative_self,742,4.4,5,,
-4,Ucok et al,2024,Control,negative_self,1039,1.04,1.7,,
-5,Vorontsova et al,2013,SZ,negative_self,30,4.83,3.57,,
-5,Vorontsova et al,2013,Control,negative_self,30,1.67,1.49,,
-6,MacKinnon et al,2011,SZ,negative_self,22,6.19,5,,
-6,MacKinnon et al,2011,Control,negative_self,20,0.85,1.66,,
-7,Stokowy et al,2016,SZ,negative_self,66,6.86,5.85,,
-7,Stokowy et al,2016,Control,negative_self,135,0.61,1.49,,
-8,Taylor et al ,2013,SZ,negative_self,20,7.44,5.16,,
-8,Taylor et al ,2013,Control,negative_self,28,6.25,5.97,,
+﻿study_id,author,year,clinical_group,bcss,sample_size,mean_score,sd
+1,Collett et al,2016,SZ,negative_self,21,9.45,5.02
+1,Collett et al,2016,control,negative_self,21,3.05,4.98
+2,Haarmans et al,2018,SZ,negative_self,19,0.77,0.79
+2,Haarmans et al,2018,Control,negative_self,30,0.48,0.66
+3,Peters et al,2016,SZ,negative_self,83,6,6.2
+3,Peters et al,2016,Control,negative_self,82,1.8,3.2
+4,Ucok et al,2024,SZ,negative_self,742,4.4,5
+4,Ucok et al,2024,Control,negative_self,1039,1.04,1.7
+5,Vorontsova et al,2013,SZ,negative_self,30,4.83,3.57
+5,Vorontsova et al,2013,Control,negative_self,30,1.67,1.49
+6,MacKinnon et al,2011,SZ,negative_self,22,6.19,5
+6,MacKinnon et al,2011,Control,negative_self,20,0.85,1.66
+7,Taylor et al ,2014,SZ,negative_self,20,7.44,5.16
+7,Taylor et al ,2014,Control,negative_self,28,6.25,5.97
+8,Fowler et al,2006,SZ,Negative Self,252,7.2,5.9
+8,Fowler et al,2006,Control,Negative Self,754,3.5,3.5
