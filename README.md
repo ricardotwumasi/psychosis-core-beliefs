@@ -13,7 +13,7 @@ This code implements a meta-analytic approach to synthesise evidence on core bel
 - Calculating effect sizes
 - Fitting RMLE with knha models for each BCSS and YSQ schema
 - Identifying and measuring heterogeneity
-- Creating forest plots with point estimates, 95% confidence intervals and prediction intervals
+- Creating forest plots with point estimates, 95% confidence intervals and 95% prediction intervals
 
 ## 💻 Requirements
 
@@ -50,16 +50,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Key methodological references:
 
 ```bibtex
-@article{chinn2000,
-  title={A simple method for converting an odds ratio to effect size for use in meta-analysis},
-  author={Chinn, Susan},
-  journal={Statistics in medicine},
-  volume={19},
-  number={22},
-  pages={3127--3131},
-  year={2000},
-  publisher={Wiley Online Library}
-}
+@book{harrer2021doing,
+      title     = {Doing Meta-Analysis With {R}: A Hands-On Guide},
+      author    = {Harrer, Mathias and Cuijpers, Pim and Furukawa Toshi A and Ebert, David D},
+      year      = {2021},
+      publisher = {Chapman & Hall/CRC Press},
+      address   = {Boca Raton, FL and London},
+      isbn      = {9780367610074},
+      edition   = {1st}
+    }
 
 @book{borenstein2021,
 	title = {Introduction to {Meta}-{Analysis}},
