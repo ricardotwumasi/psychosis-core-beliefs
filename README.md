@@ -88,22 +88,22 @@ For citing this repository, please use:
 <summary>BibTeX</summary>
 <pre><code>@article{jorovat2024,
   title={Core Beliefs in Psychosis: A Systematic Review and Meta-Analysis},
-  author={Jorovat, Alina Twumasi, Ricardo and Georgiades, Anna},
+  author={Jorovat, Alina; Twumasi, Ricardo; Mechelli, Andrea and Georgiades, Anna},
   journal={Schizophrenia},
-  year={In Press},
+  year={2025},
   publisher={Springer Nature},
-  doi={[DOI Pending]}
+  doi={10.1038/s41537-025-00577-2}
 }
 </code></pre>
 </details>
 <details>
 <summary>APA</summary>
-<pre><code>Jorovat, A., Twumasi, R., & Georgiades, A (In Press). Core Beliefs in Psychosis: A Systematic Review and Meta-Analysis. Schizophrenia.</code></pre>
+<pre><code>Jorovat, A., Twumasi, R., Mechelli, A., & Georgiades, A (2025). Core Beliefs in Psychosis: A Systematic Review and Meta-Analysis. Schizophrenia.</code></pre>
 </details>
 <details>
 <summary>Vancouver</summary>
-<pre><code>Jorovat A , Twumasi R, Georgiades A. Core Beliefs in Psychosis: A Systematic Review and Meta-Analysis. Schizophrenia. In Press.</code></pre>
+<pre><code>Jorovat A , Twumasi R, Mechelli, A., Georgiades A. Core Beliefs in Psychosis: A Systematic Review and Meta-Analysis. Schizophrenia. 2025.</code></pre>
 </details>
 
 ---
-Contributors: Alina Jorovat, Ricardo Twumasi & Anna Georgiades
+Contributors: Alina Jorovat, Ricardo Twumasi, Andrea Mechelli & Anna Georgiades
