@@ -1,6 +1,6 @@
 # 🧠 Core Beliefs in Psychosis Meta-Analysis Code
 
-[![DOI](https://zenodo.org/badge/DOI/[pending].svg)](https://doi.org/[pending])
+[![DOI](https://zenodo.org/badge/DOI/10.1038/s41537-025-00577-2.svg)](https://doi.org/10.1038/s41537-025-00577-2)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![R](https://img.shields.io/badge/R-4.1.0-blue.svg)](https://cran.r-project.org/)
 
